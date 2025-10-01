@@ -7,4 +7,7 @@ Route::get('/', function () {
 });
 Route::get('/anggota', function () {
     return view('anggota');
+}):
+Route::get('/ketua', function() {
+    return view ('ketua');
 });
